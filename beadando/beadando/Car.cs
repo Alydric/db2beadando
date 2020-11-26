@@ -15,6 +15,8 @@ namespace beadando
         private string marka;
         private string tipus;
         private int evjarat;
+        private int hp;
+        private int ccm;
 
         public string Rendszam
         {
@@ -96,6 +98,37 @@ namespace beadando
             }
         }
 
+        public int Hp
+        {
+            get
+            {
+                return hp;
+            }
+            set
+            {
+                if (value == 0)
+                    throw new ArgumentNullException("Az a lóerő mező nem lehet üres!");
+                if (value > 1000)
+                    throw new Exception("A lóerő nem lehet több 1000 től!");
+                hp = value;
+            }
+        }
+
+        public int Ccm
+        {
+            get
+            {
+                return ccm;
+            }
+            set
+            {
+                if (value == 0)
+                    throw new ArgumentNullException("Az mező nem lehet üres!");
+                if (value < 0)
+                    throw new Exception("A motor térfogata nem lehet 0!");
+                ccm = value;
+            }
+        }
         public override string ToString()
         {
             return tulajdonos;
