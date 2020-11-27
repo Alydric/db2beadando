@@ -8,10 +8,16 @@ namespace beadando
 {
     class Tulaj
     {
-        private string name;
         private int id;
+        private string name;
         private DateTime dateOfBirth;
-        
+
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+
         public string Name
         {
             get
@@ -26,12 +32,6 @@ namespace beadando
                     throw new ArgumentOutOfRangeException("A mező max 250 karakter lehet!");
                 name = value;
             }
-        }
-
-        public int Id
-        {
-            get { return id; }
-            set { id = value; }
         }
 
         public DateTime DateOfBirth
