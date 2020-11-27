@@ -53,5 +53,73 @@ namespace beadando
 
             return parancs.ExecuteNonQuery();
         }
+
+        public int Insert(Car uj)
+        {
+            OracleCommand p = new OracleCommand();
+            p.Connection = kapcsolatNyit();
+            p.CommandType = System.Data.CommandType.Text;
+            p.CommandText = "INSERT INTO cars(id, marka, tipus, evjarat, ccm, hp, tulajdonos, rendszam) VALUES(:id, :marka, :tipus, :evjarat, :ccm, :hp, :tulajdonos, :rendszam)";
+
+            OracleParameter pId = new OracleParameter();
+            pId.ParameterName = ":id";
+            pId.OracleDbType = OracleDbType.Int32;
+            pId.Direction = System.Data.ParameterDirection.Input;
+            pId.Value = uj.Id;
+
+            OracleParameter pMarka = new OracleParameter();
+            pMarka.ParameterName = ":marka";
+            pMarka.OracleDbType = OracleDbType.Varchar2;
+            pMarka.Direction = System.Data.ParameterDirection.Input;
+            pMarka.Value = uj.Marka;
+
+            OracleParameter pTipus = new OracleParameter();
+            pTipus.ParameterName = ":tipus";
+            pTipus.OracleDbType = OracleDbType.Varchar2;
+            pTipus.Direction = System.Data.ParameterDirection.Input;
+            pTipus.Value = uj.Tipus;
+
+            OracleParameter pEvjarat = new OracleParameter();
+            pEvjarat.ParameterName = ":evjarat";
+            pEvjarat.OracleDbType = OracleDbType.Int32;
+            pEvjarat.Direction = System.Data.ParameterDirection.Input;
+            pEvjarat.Value = uj.Evjarat;
+
+            OracleParameter pCcm = new OracleParameter();
+            pCcm.ParameterName = ":ccm";
+            pCcm.OracleDbType = OracleDbType.Int32;
+            pCcm.Direction = System.Data.ParameterDirection.Input;
+            pCcm.Value = uj.Ccm;
+
+            OracleParameter pHp = new OracleParameter();
+            pHp.ParameterName = ":hp";
+            pHp.OracleDbType = OracleDbType.Int32;
+            pHp.Direction = System.Data.ParameterDirection.Input;
+            pHp.Value = uj.Hp;
+
+            OracleParameter pTulajdonos = new OracleParameter();
+            pTulajdonos.ParameterName = ":tulajdonos";
+            pTulajdonos.OracleDbType = OracleDbType.Varchar2;
+            pTulajdonos.Direction = System.Data.ParameterDirection.Input;
+            pTulajdonos.Value = uj.Tulajdonos;
+
+            OracleParameter pRendszam = new OracleParameter();
+            pRendszam.ParameterName = ":rendszam";
+            pRendszam.OracleDbType = OracleDbType.Varchar2;
+            pRendszam.Direction = System.Data.ParameterDirection.Input;
+            pRendszam.Value = uj.Rendszam;
+
+            p.Parameters.Add(pId);
+            p.Parameters.Add(pMarka);
+            p.Parameters.Add(pTipus);
+            p.Parameters.Add(pEvjarat);
+            p.Parameters.Add(pCcm);
+            p.Parameters.Add(pHp);
+            p.Parameters.Add(pTulajdonos);
+            p.Parameters.Add(pRendszam);
+
+
+            return p.ExecuteNonQuery();
+        }
     }
 }
