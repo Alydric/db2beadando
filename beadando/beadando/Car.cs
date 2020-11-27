@@ -9,6 +9,7 @@ namespace beadando
 {
     class Car
     {
+        private int id;
         private string rendszam;
         Regex regex = new Regex(@"[a-zA-Z]{3}-[\d]{3}$");
         private string tulajdonos;
@@ -17,6 +18,12 @@ namespace beadando
         private int evjarat;
         private int hp;
         private int ccm;
+
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
 
         public string Rendszam
         {
@@ -44,7 +51,7 @@ namespace beadando
             {
                 if (value == null)
                     throw new ArgumentNullException("A tulajdonos neve nem lehet üres!");
-                if (250 < value.Length) 
+                if (250 < value.Length)
                     throw new ArgumentOutOfRangeException("A mező max 250 karakter lehet!");
                 tulajdonos = value;
             }
@@ -133,6 +140,5 @@ namespace beadando
         {
             return tulajdonos;
         }
-
     }
 }
