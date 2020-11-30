@@ -15,14 +15,14 @@ namespace beadando
             OracleCommand parancs = new OracleCommand();
             parancs.Connection = kapcsolatNyit();
             parancs.CommandType = System.Data.CommandType.Text;
-            parancs.CommandText = @"SELECT id, name, dateOfBirth FROM tulajok ORDER BY name";
+            parancs.CommandText = @"SELECT id, név, dateOfBirth FROM tulajok ORDER BY name";
 
             OracleDataReader reader = parancs.ExecuteReader();
             while (reader.Read())
             {
                 Tulaj newTulaj = new Tulaj();
                 newTulaj.Id = int.Parse(reader["id"].ToString());
-                newTulaj.Name = (string)reader["name"];
+                newTulaj.Név = (string)reader["név"];
                 newTulaj.DateOfBirth = DateTime.Parse(reader["dateOfBirth"].ToString());
 
                 tulajok.Add(newTulaj);
@@ -54,7 +54,7 @@ namespace beadando
             OracleCommand p = new OracleCommand();
             p.Connection = kapcsolatNyit();
             p.CommandType = System.Data.CommandType.Text;
-            p.CommandText = "INSERT INTO tulajok(id, name, dateOfBirth) VALUES(:id, :name, :dateOfBirth)";
+            p.CommandText = "INSERT INTO tulajok(id, név, dateOfBirth) VALUES(:id, :név, :dateOfBirth)";
 
             OracleParameter pId = new OracleParameter();
             pId.ParameterName = ":id";
@@ -63,10 +63,10 @@ namespace beadando
             pId.Value = uj.Id;
 
             OracleParameter pName = new OracleParameter();
-            pName.ParameterName = ":name";
+            pName.ParameterName = ":név";
             pName.OracleDbType = OracleDbType.Varchar2;
             pName.Direction = System.Data.ParameterDirection.Input;
-            pName.Value = uj.Name;
+            pName.Value = uj.Név;
 
             OracleParameter pDateOfBirth = new OracleParameter();
             pDateOfBirth.ParameterName = ":dateOfBirth";

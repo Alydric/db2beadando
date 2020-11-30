@@ -9,7 +9,7 @@ namespace beadando
     class Tulaj
     {
         private int id;
-        private string name;
+        private string név;
         private DateTime dateOfBirth;
 
         public int Id
@@ -18,11 +18,11 @@ namespace beadando
             set { id = value; }
         }
 
-        public string Name
+        public string Név
         {
             get
             {
-                return name;
+                return név;
             }
             set
             {
@@ -30,7 +30,7 @@ namespace beadando
                     throw new ArgumentNullException("A név nem lehet üres!");
                 if (250 < value.Length)
                     throw new ArgumentOutOfRangeException("A mező max 250 karakter lehet!");
-                name = value;
+                név = value;
             }
         }
 
@@ -50,7 +50,7 @@ namespace beadando
 
         public override string ToString()
         {
-            return name;
+            return név;
         }
     }
 }

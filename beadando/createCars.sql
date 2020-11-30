@@ -22,6 +22,6 @@ create table cars
 
 	constraint pk_cars primary key(id),
 	constraint uq_autok_alvazszam unique(rendszam),
-	constraint fk_tulajok foreign key(tulajdonos) references tulajok(name)
+	constraint fk_tulajok foreign key(tulajdonos) references tulajok(név)
 
 );
