@@ -11,7 +11,7 @@ namespace beadando
     {
         private int id;
         private string rendszam;
-        Regex regex = new Regex(@"[a-zA-Z]{3}-[\d]{3}$");
+        Regex regex = new Regex(@"[a-zA-Z]{3}[\d]{3}$");
         private string tulajdonos;
         private string marka;
         private string tipus;
