@@ -99,7 +99,7 @@ namespace beadando
             {
                 if (value == 0)
                     throw new ArgumentNullException("Az évjárat nem lehet üres!");
-                if (value < 1900)
+                if (value < 1900)   
                     throw new Exception("Az évjárat nem lehet olyan régi!");
                 evjarat = value;
             }

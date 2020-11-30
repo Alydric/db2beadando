@@ -15,14 +15,14 @@ namespace beadando
             OracleCommand parancs = new OracleCommand();
             parancs.Connection = kapcsolatNyit();
             parancs.CommandType = System.Data.CommandType.Text;
-            parancs.CommandText = @"SELECT id, név, dateOfBirth FROM tulajok ORDER BY name";
+            parancs.CommandText = @"SELECT id, nev, dateOfBirth FROM tulajok ORDER BY name";
 
             OracleDataReader reader = parancs.ExecuteReader();
             while (reader.Read())
             {
                 Tulaj newTulaj = new Tulaj();
                 newTulaj.Id = int.Parse(reader["id"].ToString());
-                newTulaj.Név = (string)reader["név"];
+                newTulaj.Nev = (string)reader["nev"];
                 newTulaj.DateOfBirth = DateTime.Parse(reader["dateOfBirth"].ToString());
 
                 tulajok.Add(newTulaj);
@@ -54,7 +54,7 @@ namespace beadando
             OracleCommand p = new OracleCommand();
             p.Connection = kapcsolatNyit();
             p.CommandType = System.Data.CommandType.Text;
-            p.CommandText = "INSERT INTO tulajok(id, név, dateOfBirth) VALUES(:id, :név, :dateOfBirth)";
+            p.CommandText = "INSERT INTO tulajok(id, nev, dateOfBirth) VALUES(:id, :nev, :dateOfBirth)";
 
             OracleParameter pId = new OracleParameter();
             pId.ParameterName = ":id";
@@ -62,11 +62,11 @@ namespace beadando
             pId.Direction = System.Data.ParameterDirection.Input;
             pId.Value = uj.Id;
 
-            OracleParameter pName = new OracleParameter();
-            pName.ParameterName = ":név";
-            pName.OracleDbType = OracleDbType.Varchar2;
-            pName.Direction = System.Data.ParameterDirection.Input;
-            pName.Value = uj.Név;
+            OracleParameter pNev = new OracleParameter();
+            pNev.ParameterName = ":nev";
+            pNev.OracleDbType = OracleDbType.Varchar2;
+            pNev.Direction = System.Data.ParameterDirection.Input;
+            pNev.Value = uj.Nev;
 
             OracleParameter pDateOfBirth = new OracleParameter();
             pDateOfBirth.ParameterName = ":dateOfBirth";
@@ -75,7 +75,7 @@ namespace beadando
             pDateOfBirth.Value = uj.DateOfBirth;
 
             p.Parameters.Add(pId);
-            p.Parameters.Add(pName);
+            p.Parameters.Add(pNev);
             p.Parameters.Add(pDateOfBirth);
 
             return p.ExecuteNonQuery();
