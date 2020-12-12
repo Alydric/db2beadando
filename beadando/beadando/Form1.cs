@@ -25,10 +25,10 @@ namespace beadando
             tulajKezelo = new TulajKezelo();
 
             cars = carKezelo.Select();
-            //feltoltComboBoxCars();
+            FeltoltCbCars();
 
             tulajs = tulajKezelo.Select();
-            //feltoltComboBoxTulajok();
+            FeltoltCbTulajok();
         }
         
         private void FeltoltCbCars()
@@ -93,12 +93,45 @@ namespace beadando
 
         private void BtCarInsert_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Car uj = new Car();
+                uj.Id = int.Parse(TbCarId.Text);
+                uj.Rendszam = TbRendszam.Text;
+                //uj.Tulajdonos = (Tulaj)CbTulajdonos.SelectedItem;
+                //Error CS0029  Cannot implicitly convert type 'beadando.Tulaj' to 'string'
+                //hibát adja ki ha leveszem a kommentet róla, pedig van tostring override a Tulaj osztályban
+                uj.Marka = TbMarka.Text;
+                uj.Tipus = TbTipus.Text;
+                uj.Evjarat = int.Parse(TbEvjarat.Text);
+                uj.Hp = int.Parse(TbHp.Text);
+                uj.Ccm = int.Parse(TbCcm.Text);
 
+                int beszurtSorok = carKezelo.Insert(uj);
+                MessageBox.Show(beszurtSorok + "sor sikeresen rögzítve lett!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void BtTulajInsert_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Tulaj uj = new Tulaj();
+                uj.Id = int.Parse(TbTulajId.Text);
+                uj.Nev = TbName.Text;
+                uj.DateOfBirth = DateTime.Parse(TbDateOfBirth.Text);
 
+                int beszurtSorok = tulajKezelo.Insert(uj);
+                MessageBox.Show(beszurtSorok + "sor sikeresen rögzítve lett!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

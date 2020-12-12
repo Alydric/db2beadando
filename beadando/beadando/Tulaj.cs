@@ -50,7 +50,8 @@ namespace beadando
 
         public override string ToString()
         {
-            return nev;
+            return Nev;
         }
+
     }
 }
