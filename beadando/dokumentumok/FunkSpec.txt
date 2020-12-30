@@ -10,7 +10,7 @@
 
 3. Vágyálomrendszer leírása
 
-	A program elindításakor kiadja a Car tabot. Ott két lehetőségünk van: törölni egy meglévő autót a rendszerből vagy hozzáadni egy újat.
+	Segítse egy cég céges autóinak a rendszerezését. A program elindításakor kiadja a Car tabot. Ott két lehetőségünk van: törölni egy meglévő autót a rendszerből vagy hozzáadni egy újat.
 	Viszont autót csak akkor lehet hozzáadni ha a Tulajdonos tabon már létrehoztunk minimum egy tulajdonost.
 	A Tulajdonos tabon is ugyanezek a lehetőségek állnak a felhasználó rendelkezésére.
 
@@ -33,3 +33,8 @@
 7. Követelménylista
 	
 	Autók és tulajdonosok törlése és hozzáadása az első verzióban.
+
+8. Használati esetek
+
+	Szereplők: felhasználó
+	Felhasználó használati esete: Adatok törlése vagy hozzáadása
