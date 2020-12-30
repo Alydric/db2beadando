@@ -55,3 +55,8 @@
 	-  Regisztráció nem szükséges hozzá
 	-  Programindítás után megjelenik a 2 tab amin a felhasználó dolgozhat.
 	
+12. Funkció – követelmény megfeleltetés
+	
+	Az alkalmazás C# nyelven készült, ezért windows platformokon lesz elérhető.
+
+
