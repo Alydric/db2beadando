@@ -29,3 +29,7 @@
 6. Igénylet üzleti folyamatok modellje
 
 	Ha az adott tulajdonos kárt okoz a rábízott céges autóban akkor vállalnia kell a felelősséget.
+
+7. Követelménylista
+	
+	Autók és tulajdonosok törlése és hozzáadása az első verzióban.
