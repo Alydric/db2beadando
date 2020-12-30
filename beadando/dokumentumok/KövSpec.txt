@@ -21,3 +21,9 @@
 
 	Egy alkalmazás fejlesztése a mindennapi a felhasználó munkájának megkönnyítésének céljából.
 	Használati útmutatót mellékelünk a szoftver használatáról.
+
+6. Követelménylista
+
+	Alap program: A programnak tudnia kell az alapvető szükséges funkciókat(Törlés, hozzáadás)
+	Jogkörök: Ha a felhasználó hibát(bugot) talál, jelentheti a menüben található "Bug jelentése" gombbal.
+	Statisztika: A felhasználó kilistázhatja az összes céges autót és tulajdonságait.
