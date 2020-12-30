@@ -12,3 +12,6 @@
 
 	2016. évi XCIII. törvény a szerzői jogok és a szerzői joghoz kapcsolódó jogok közös kezeléséről
 	2018. évi LIII. törvény a magánélet védelméről
+
+4. Jelenlegi üzleti folyamatok modellje
+	Egy cég megbízta a programozóját, hogy készítsen a cég számára egy olyan alkalmazást ami megkönnyíti a céges autók rendszerezését és nyílvántartását.
