@@ -59,4 +59,7 @@
 	
 	Az alkalmazás C# nyelven készült, ezért windows platformokon lesz elérhető.
 
+13. Fogalomszótár
 
+	-[bug]: Fejlesztési hiba, amely miatt a program nem megfelelő működést eredményez.
+	-[tab]: Lapok/fülek amik között a felhasználó bal kattintással váltogathat más funkciók elvégzéséhez.
