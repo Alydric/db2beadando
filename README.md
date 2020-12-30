@@ -1,3 +1,1 @@
-Tóth Levente B2T6S4 - Adatbázis2 beadandó
-
-Az órai munkai programok felépítése alapján próbáltam egy megfelelő beadandó projektet elkészíteni. Nekem valamiért nem tudott csatlakozni az adatbázishoz az adatbáziskapcsolatban ezért nem is fut le sajnos. De a kódot megnézve szerintem elég részletesen ki lett dolgozva nagyjából minden. Car tabon insert résznél a tulajdonos combobox hibát ad ki amit nem értek szintén pedig lekezeltem egy override tostring -el. Ott egyébként csak akkor lehetne tulajdonost hozzáadni ha már a tulaj tabon létre lett hozva legalább egy tulajdonos, mivel egy autónak muszáj tulajdonossal rendelkeznie.
+Tóth Levente B2T6S4 - RFT
