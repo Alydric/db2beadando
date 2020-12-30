@@ -48,3 +48,10 @@
 10. Képernyőtervek
 
 	(Külön fájlban)
+
+11. Forgatókönyvek
+
+	-  A felhasználó windows operációs rendszeren keresztül tudja majd használni a szoftvert.
+	-  Regisztráció nem szükséges hozzá
+	-  Programindítás után megjelenik a 2 tab amin a felhasználó dolgozhat.
+	
