@@ -15,6 +15,7 @@ namespace beadando
             OracleConnection kapcsolat = new OracleConnection();
             kapcsolat.ConnectionString = "User Id=user1;Password=password1;Data Source=oracle";
             kapcsolat.Open();
+            //Data Source=MyOracleDB;Integrated Security=yes;
 
             return kapcsolat;
         }
