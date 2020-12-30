@@ -1,3 +1,9 @@
 1. Jelenlegi helyzet leírása
 	
 	Ez a program egy olyan alkalmazás, amit cégek szoktak használni céges autók nyílvántartásához.
+
+2. Vágyálomrendszer leírása
+
+	Segítse egy cég céges autóinak a rendszerezését. A program elindításakor kiadja a Car tabot. Ott két lehetőségünk van: törölni egy meglévő autót a rendszerből vagy hozzáadni egy újat.
+	Viszont autót csak akkor lehet hozzáadni ha a Tulajdonos tabon már létrehoztunk minimum egy tulajdonost.
+	A Tulajdonos tabon is ugyanezek a lehetőségek állnak a felhasználó rendelkezésére.
