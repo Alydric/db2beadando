@@ -2,3 +2,9 @@
 
 	A rendszer célja, hogy a felhasználó nyomon követhesse egy cég céges autóinak adatait és tulajdonosainak adatait.
 	A rendszer nem célja, hogy ne legyen kavarodás az adatok között.
+
+2. Jelenlegi helyzet leírása
+
+	Jelenlegi cél, kialakítani egy olyan windows alkalmazást amely működőképes beleértve a funkcióit is.
+	A programba való belépés után a felhasználó már el is kezdheti az új adat feltöltését, módosítását vagy törlését.
+
