@@ -27,3 +27,14 @@
 	Alap program: A programnak tudnia kell az alapvető szükséges funkciókat(Törlés, hozzáadás)
 	Jogkörök: Ha a felhasználó hibát(bugot) talál, jelentheti a menüben található "Bug jelentése" gombbal.
 	Statisztika: A felhasználó kilistázhatja az összes céges autót és tulajdonságait.
+
+7. Irányított és szabad szöveges riportok szövege
+
+	Megrendelő: Jó napot kívánok
+	Kivitelező: Jó napot, miben segíthetek önnek?
+	Megrendelő: A cégemhez szeretnék egy programot készíteni amely megkönnyítené az autóflotta kezelő dolgozóim munkáját.
+	Kivitelező: Értem. Mennyire bonyolult dologra van szüksége?
+	Megrendelő: A létező legegyszerűbbre. Nyomon lehessen követni a céges autók adatait és tulajdonosait!
+	Kivitelező: Értettem, a jövőhétre kész is lesz az alkalmazás
+	Megrendelő: Nagyon szépen köszönöm, viszont látásra!
+	Kivitelező: Viszont látásra!
