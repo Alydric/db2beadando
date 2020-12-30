@@ -21,3 +21,7 @@
 	Minden eszköznek meg kell felelni a szabványosításnak.
 	- Az összesnek együtt meg kell felelni, hogy létrejöhessen, és használható legyen a program.
 	Ha már az egyik nem teljesül , vagy a program nem megfelelő, úgy nem nem lehet használni.
+
+5. Jelenlegi üzleti folyamatok modellje
+	
+	Ebben a programban nem kerül felhasználásra semmilyen valuta. Ha az adott tulajdonos kárt okoz a rábízott céges autóban akkor vállalnia kell a felelősséget.
