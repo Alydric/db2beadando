@@ -38,3 +38,6 @@
 	Kivitelező: Értettem, a jövőhétre kész is lesz az alkalmazás
 	Megrendelő: Nagyon szépen köszönöm, viszont látásra!
 	Kivitelező: Viszont látásra!
+
+8. Fogalomszótár
+	Bug: fejlesztési hiba
