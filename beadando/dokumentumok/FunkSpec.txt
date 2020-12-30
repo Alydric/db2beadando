@@ -24,4 +24,8 @@
 
 5. Jelenlegi üzleti folyamatok modellje
 	
-	Ebben a programban nem kerül felhasználásra semmilyen valuta. Ha az adott tulajdonos kárt okoz a rábízott céges autóban akkor vállalnia kell a felelősséget.
+	Ebben a programban nem kerül felhasználásra semmilyen valuta. 
+
+6. Igénylet üzleti folyamatok modellje
+
+	Ha az adott tulajdonos kárt okoz a rábízott céges autóban akkor vállalnia kell a felelősséget.
