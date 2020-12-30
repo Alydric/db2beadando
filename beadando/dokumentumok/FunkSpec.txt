@@ -13,3 +13,11 @@
 	A program elindításakor kiadja a Car tabot. Ott két lehetőségünk van: törölni egy meglévő autót a rendszerből vagy hozzáadni egy újat.
 	Viszont autót csak akkor lehet hozzáadni ha a Tulajdonos tabon már létrehoztunk minimum egy tulajdonost.
 	A Tulajdonos tabon is ugyanezek a lehetőségek állnak a felhasználó rendelkezésére.
+
+4. A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
+
+	Mivel Magyarországon készül a program így a magyar törvénykönyv pontjainak meg kell felelni.
+	-Figyelembe kell venni , hogy a programot milyen eszközön folgják használni.
+	Minden eszköznek meg kell felelni a szabványosításnak.
+	- Az összesnek együtt meg kell felelni, hogy létrejöhessen, és használható legyen a program.
+	Ha már az egyik nem teljesül , vagy a program nem megfelelő, úgy nem nem lehet használni.
