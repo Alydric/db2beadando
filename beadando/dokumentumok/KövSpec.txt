@@ -7,3 +7,8 @@
 	Segítse egy cég céges autóinak a rendszerezését. A program elindításakor kiadja a Car tabot. Ott két lehetőségünk van: törölni egy meglévő autót a rendszerből vagy hozzáadni egy újat.
 	Viszont autót csak akkor lehet hozzáadni ha a Tulajdonos tabon már létrehoztunk minimum egy tulajdonost.
 	A Tulajdonos tabon is ugyanezek a lehetőségek állnak a felhasználó rendelkezésére.
+
+3. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
+
+	2016. évi XCIII. törvény a szerzői jogok és a szerzői joghoz kapcsolódó jogok közös kezeléséről
+	2018. évi LIII. törvény a magánélet védelméről
