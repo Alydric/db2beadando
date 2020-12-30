@@ -38,3 +38,9 @@
 
 	Szereplők: felhasználó
 	Felhasználó használati esete: Adatok törlése vagy hozzáadása
+
+9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
+
+	done - Elkészül		might - Nem biztos, hogy elkészül átadásig
+	fail - Nem készül el az átadásig
+	done: Mindkét funkció kész az átadásig
