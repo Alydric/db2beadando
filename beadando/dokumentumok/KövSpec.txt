@@ -14,4 +14,10 @@
 	2018. évi LIII. törvény a magánélet védelméről
 
 4. Jelenlegi üzleti folyamatok modellje
+
 	Egy cég megbízta a programozóját, hogy készítsen a cég számára egy olyan alkalmazást ami megkönnyíti a céges autók rendszerezését és nyílvántartását.
+
+5. Igényelt üzleti folyamatok modellje
+
+	Egy alkalmazás fejlesztése a mindennapi a felhasználó munkájának megkönnyítésének céljából.
+	Használati útmutatót mellékelünk a szoftver használatáról.
