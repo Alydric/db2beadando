@@ -44,3 +44,7 @@
 	done - Elkészül		might - Nem biztos, hogy elkészül átadásig
 	fail - Nem készül el az átadásig
 	done: Mindkét funkció kész az átadásig
+
+10. Képernyőtervek
+
+	(Külön fájlban)
