@@ -2,6 +2,12 @@
   A rendszer célja, hogy segítse és megkönnyítse a céges autókkal foglalkozó dolgozók munkáját illetve, hogy átláható összegző képet mutasson az autók adatairól és állapotáról.
 
 2. Projekt terv
+  Projektszerepkörök és felelősségek
+    - Dokumentáció készítő, programozó, tesztelő(Mondjuk mivel egyedül vagyok így az összes szerepkör az enyém)
+  Projekt készítők
+    - Tóth levente: dokumenátció készítő, programozó, tesztelő
+  Ütemterv
+    - Saját szabadidőm alapján
 
 3. Üzleti folyamatok modellje
 
