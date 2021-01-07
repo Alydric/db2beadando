@@ -31,6 +31,9 @@
   Szerver-kliens kapcsolat: A kliens az elindításakor megpróbál kapcsolódni a szerverhez
   
 6. Fizikai környezet
+  Fejlesztői környezet: Visual Studio(c#)
+  Keretrendszer: .NET Framework
+  Adatbázis: Oracle online adatbázis
 
 7. Absztrakt domain modell
 
