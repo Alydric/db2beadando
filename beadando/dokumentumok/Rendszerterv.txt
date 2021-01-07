@@ -59,7 +59,10 @@
                            AdatbazisKapcsolat.cs
                            
 11. Tesztterv
+  Sikeres teszt: ha azt csinálja, mint ami le van írva a követelményeknél és a funkcióknál.
 
 12. Telepítési terv
+  Szimplán csak futtatni kell a programot.
+  Asztali gépen vagy laptopon futtatható Windows operációs rendszer alatt.
 
 13. Karbantartási terv
