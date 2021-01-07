@@ -19,6 +19,7 @@
   Funkcionális követelmények: Funkcionális és követelményspecifikáció 7. pont.
 
 5. Funkcionális terv
+  Rendszerszereplők: Felhasználók, Program karbantartó, Adatbázis tulajdonosa
 
 6. Fizikai környezet
 
