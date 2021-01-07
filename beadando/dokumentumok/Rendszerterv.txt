@@ -20,7 +20,16 @@
 
 5. Funkcionális terv
   Rendszerszereplők: Felhasználók, Program karbantartó, Adatbázis tulajdonosa
-
+  
+  Adatok felvitele: A car tabra vagy a tulaj tabon található INSERT gombbal felvihető az adatbázisba a kitöltött adat.
+  Adatok tárolása: Oracle adatbázis által
+  Adatok módosítása: Az INSERT melletti gombbal az UPDATE megnyomásával módosítható az adat.
+  Adatok törlése: A car vagy tulaj tabon található DELETE gombbal törölhetjük a kiválasztott autó vagy tulajdonos adatait.
+  Tárolt adatok: -Autó: id, rendszám, tulajdonos, márka, típus, évjárat, lóerő, köbcenti
+                 -Tulajdonos: id, név, születési dátum
+  Adat megjelenítés: A felvitt adatokat egy jól átlátható listával megjeleníthetjük.
+  Szerver-kliens kapcsolat: A kliens az elindításakor megpróbál kapcsolódni a szerverhez
+  
 6. Fizikai környezet
 
 7. Absztrakt domain modell
