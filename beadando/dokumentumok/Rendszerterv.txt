@@ -36,6 +36,7 @@
   Adatbázis: Oracle online adatbázis
 
 7. Absztrakt domain modell
+  Egy online adatbázis, a kiszolgáló program, ami kapcsolódik hozzá, és az ügyfél program ami a kiszolgálóhoz kapcsolódik.
 
 8. Architekturális terv
 
