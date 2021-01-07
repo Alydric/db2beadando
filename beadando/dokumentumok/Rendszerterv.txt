@@ -10,6 +10,9 @@
     - Saját szabadidőm alapján
 
 3. Üzleti folyamatok modellje
+  Üzleti szereplők: Tóth Levente
+  Üzleti folyamatok: Bemutatjuk a programot és a dokumentációt.
+  Üzleti entitások: program, dokumentáció
 
 4. Követelmények
 
