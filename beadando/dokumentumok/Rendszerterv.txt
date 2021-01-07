@@ -43,6 +43,10 @@
   A programot bővíteni lehet programozóknak.
   
 9. Adatbázis terv
+  Fizikai adatmodell: Megtalálható az alkalmazás főkönyvtárában.
+  Logikai adatmodell: Az autók és a tulajdonosok külön táblában vannak. Autót csak akkor lehet példányosítani ha már van legalább egy tulajdonos mert tulajdonos nélkül nem                             létezhet autó.
+                      Minden autónak van rendszáma ami REGEX szerint van szabályozva, tehát csak ABC-123 formátumú adatot lehet bevinni.
+                      Az autó és a tulajdonos táblában is az id az elsődleges kulcs.
 
 10. Implementációs terv
 
