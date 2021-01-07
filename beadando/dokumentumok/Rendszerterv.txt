@@ -66,3 +66,4 @@
   Asztali gépen vagy laptopon futtatható Windows operációs rendszer alatt.
 
 13. Karbantartási terv
+  Ha valamit javítani kell vagy bővíteni kell akkor a BUG JELENTÉS gombbal üzenetet lehet küldeni a program készítőjének.
