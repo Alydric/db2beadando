@@ -49,7 +49,15 @@
                       Az autó és a tulajdonos táblában is az id az elsődleges kulcs.
 
 10. Implementációs terv
-
+  Kliens oldal osztályai: Car.cs
+                          Tulaj.cs
+                          Form1.Designer.cs
+                          Form1.cs
+                          
+  Üzleti logika osztályai: CarTablaKezelo.cs
+                           TulajKezelo.cs
+                           AdatbazisKapcsolat.cs
+                           
 11. Tesztterv
 
 12. Telepítési terv
