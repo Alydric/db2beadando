@@ -39,7 +39,9 @@
   Egy online adatbázis, a kiszolgáló program, ami kapcsolódik hozzá, és az ügyfél program ami a kiszolgálóhoz kapcsolódik.
 
 8. Architekturális terv
-
+  Az alkalmazási rétegei: Adatbázis, kliens oldali program
+  A programot bővíteni lehet programozóknak.
+  
 9. Adatbázis terv
 
 10. Implementációs terv
