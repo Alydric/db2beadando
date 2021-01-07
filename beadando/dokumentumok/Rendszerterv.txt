@@ -1,6 +1,7 @@
 1. A rendszer célja
   A rendszer célja, hogy segítse és megkönnyítse a céges autókkal foglalkozó dolgozók munkáját illetve, hogy átláható összegző képet mutasson az autók adatairól és állapotáról.
-
+  A rendszer nem célja, hogy a céltől eltérő vagy azt akadályozó tényező keletkezzen.
+  
 2. Projekt terv
   Projektszerepkörök és felelősségek
     - Dokumentáció készítő, programozó, tesztelő(Mondjuk mivel egyedül vagyok így az összes szerepkör az enyém)
@@ -15,6 +16,7 @@
   Üzleti entitások: program, dokumentáció
 
 4. Követelmények
+  Funkcionális követelmények: Funkcionális és követelményspecifikáció 7. pont.
 
 5. Funkcionális terv
 
